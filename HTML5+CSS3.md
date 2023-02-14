@@ -92,4 +92,45 @@ prettier拓展是自动的格式化，或者自动编码
 
 [我的HTML + CSS课程的入门文件，最终项目和常见问题解答 (github.com)](https://github.com/jonasschmedtmann/html-css-course)
 
-### 
+### 1.4 introduction to html
+
+HTML是什么？What we can do with it?
+
+- HyperText Markup Language
+
+- HTML is a markup language that web developers use to structure and describe the content of a webpage (not a programming language)
+
+- HTML consists of elements that describe different types of content: paragraphs, links, headings, images, video, etc.
+
+- Web browsers understand HTML and [render](https://blog.csdn.net/wishfly/article/details/82993278) HTML code as websites 
+
+  - 翻译：
+
+    - 超文本标记语言
+
+    - HTML是一种标记语言，web开发人员使用它来构造和描述网页的内容(不是一种程序设计语言)。
+
+    - HTML由描述不同类型内容的元素组成:段落、链接、标题、图像、视频等。
+
+    - 浏览器理解HTML并且将HTML代码渲染成网站 呈现为网站
+
+HTML元素的剖析the anatomy of HTML element：
+
+- ![image-20230214162245306](https://abigail-1315839746.cos.ap-nanjing.myqcloud.com/typora/image-20230214162245306.png)
+
+- 翻译版
+
+  ![ ](https://abigail-1315839746.cos.ap-nanjing.myqcloud.com/typora/image-20230214162416740.png)
+
+用p打开，用/p关闭；当元素没有内容时，比如<img>就只有opening tag。
+
+
+
+
+
+
+
+
+
+
+
