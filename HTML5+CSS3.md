@@ -124,9 +124,38 @@ HTML元素的剖析the anatomy of HTML element：
 
 用p打开，用/p关闭；当元素没有内容时，比如<img>就只有opening tag。
 
+学到这里，我：这跟markdown好像
+
+### 1.5 HTML Document structure
+
+在课程材料中打开start，复制02这个文件夹到另外的地方，这样会使学习过程更有序
+
+打开vs code，然后在vs code里打开复制的那个文件夹，然后打开.txt文件放到一边，然后再在打开的文件夹中创建一个.html文件
+
+这回，虽然有打出感叹号vs code自己帮我们写结构的方法，但是我们要自己写HTML的结构。
+
+- 首先要做的是声明一个所谓的 doc类型  像这样： `<!DOCTYPE html>`
+
+  告诉浏览器这个文档使用HTML。
+
+- 接下来，我们需要创建一个HTML元素  像这样：`<html></html>`
+
+  - 在创建元素时，vs code会自动帮我们写出closing tag，在设置里搜`auto closing tags`然后把HTML的取消勾选就可以自己写了
+
+- 然后在HTML内部，我们要插入其它元素；首先需要一个head元素，再是body元素  像这样：
+
+```html
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body></body>
+
+</html>
+```
 
 
 
+​	
 
 
 
