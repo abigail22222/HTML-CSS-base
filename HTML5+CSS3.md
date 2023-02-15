@@ -136,7 +136,7 @@ HTML元素的剖析the anatomy of HTML element：
 
 - 首先要做的是声明一个所谓的 doc类型  像这样： `<!DOCTYPE html>`
 
-  告诉浏览器这个文档使用HTML。
+  告诉浏览器这个文档使用HTML。所有的浏览器都会因此知道用HTML5的规范来render 这个HTML
 
 - 接下来，我们需要创建一个HTML元素  像这样：`<html></html>`
 
@@ -149,13 +149,26 @@ HTML元素的剖析the anatomy of HTML element：
 <html>
     <head></head>
     <body></body>
-
 </html>
 ```
 
+head元素是为了在浏览器窗口不可见的东西，所以head会包括页面标题、有关页面的一些附加信息、链接到css文件或者其它东西。
 
+body其实是为了在页面上可见的所有元素。all of the element that we see here in the browser will always be inside of the body element.
 
-​	
+```html
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>THe Basic Language of the Web:HTML</title>//页面标题
+    </head>
+    <body>
+        <h1>THe Basic Language of the Web:HTML</h1>
+    </body>
+</html>
+```
+
+**summary: 首先要有!DOCTYPE html；再有html元素；在html元素中，分别有head和body；head管页面看不到的，body管页面看得到的。**
 
 
 
