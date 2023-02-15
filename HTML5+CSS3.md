@@ -170,9 +170,55 @@ body其实是为了在页面上可见的所有元素。all of the element that w
 
 **summary: 首先要有!DOCTYPE html；再有html元素；在html元素中，分别有head和body；head管页面看不到的，body管页面看得到的。**
 
+### 1.6 text element
+
+- 标题`<h1></h1>`  有6级
+
+![image-20230215144114005](https://abigail-1315839746.cos.ap-nanjing.myqcloud.com/typora/image-20230215144114005.png)
+
+- 段落`<p></p>`   一对一个段落
+
+![image-20230215144747675](https://abigail-1315839746.cos.ap-nanjing.myqcloud.com/typora/image-20230215144747675.png)
+
+- 注释`<!-- -->`
+
+<img src="https://abigail-1315839746.cos.ap-nanjing.myqcloud.com/typora/image-20230215150826576.png" alt="image-20230215150826576" style="zoom: 33%;" />
+
+- 粗体`<b></b>`
+
+![image-20230215151143167](https://abigail-1315839746.cos.ap-nanjing.myqcloud.com/typora/image-20230215151143167.png)
+
+**但是想加粗请使用`<strong></strong>`**   b比较老 ， strong也更容易使代码看懂
+
+- 斜体`<i></i>`
+
+  ![image-20230215151754140](https://abigail-1315839746.cos.ap-nanjing.myqcloud.com/typora/image-20230215151754140.png)
+
+**但是想斜体请使用`<em></em>  `   ** i比较老  em是emphasis
+
+### 1.7 more text element: list
+
+列表分有序（数字）和无序（点）
+
+- 有序列表  ordered list `<ol></ol>`
+  - 在有序列表元素中还要含有列表项 list item 元素 `<li></li>` 
+  - ![image-20230215155644982](https://abigail-1315839746.cos.ap-nanjing.myqcloud.com/typora/image-20230215155644982.png)
+
+- 无序列表 unordered list `<ul></ul>`
+  - 在无序列表元素中我们仍然用`<li></li>`for the individual items
+  - ![image-20230215160550704](https://abigail-1315839746.cos.ap-nanjing.myqcloud.com/typora/image-20230215160550704.png)
 
 
 
+
+
+### **现在我们有了这个页面的基本脉络**
+
+![image-20230215161801245](https://abigail-1315839746.cos.ap-nanjing.myqcloud.com/typora/image-20230215161801245.png)
+
+记住，没有结构就没有意义，就像这样只是一大段文字
+
+![image-20230215162057252](https://abigail-1315839746.cos.ap-nanjing.myqcloud.com/typora/image-20230215162057252.png)
 
 
 
