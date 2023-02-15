@@ -92,9 +92,15 @@ prettier拓展是自动的格式化，或者自动编码
 
 [我的HTML + CSS课程的入门文件，最终项目和常见问题解答 (github.com)](https://github.com/jonasschmedtmann/html-css-course)
 
-### 1.4 introduction to html
+## 2. section: HTML fundamentals
+
+### 2.0 introduction to html
 
 HTML是什么？What we can do with it?
+
+[HTML 教程 (w3school.com.cn)](https://www.w3school.com.cn/html/index.asp)
+
+**在上面的这个链接中有更多关于  标签(tag)、元素、属性的介绍，更加全面**
 
 - HyperText Markup Language
 
@@ -126,7 +132,7 @@ HTML元素的剖析the anatomy of HTML element：
 
 学到这里，我：这跟markdown好像
 
-### 1.5 HTML Document structure
+### 2.1 HTML Document structure
 
 在课程材料中打开start，复制02这个文件夹到另外的地方，这样会使学习过程更有序
 
@@ -142,7 +148,7 @@ HTML元素的剖析the anatomy of HTML element：
 
   - 在创建元素时，vs code会自动帮我们写出closing tag，在设置里搜`auto closing tags`然后把HTML的取消勾选就可以自己写了
 
-- 然后在HTML内部，我们要插入其它元素；首先需要一个head元素，再是body元素  像这样：
+- 然后在html元素里，我们要插入其它元素；首先需要一个head元素，再是body元素  像这样：
 
 ```html
 <!DOCTYPE html>
@@ -170,7 +176,23 @@ body其实是为了在页面上可见的所有元素。all of the element that w
 
 **summary: 首先要有!DOCTYPE html；再有html元素；在html元素中，分别有head和body；head管页面看不到的，body管页面看得到的。**
 
-### 1.6 text element
+### 2.2 text element
+
+[HTML 标题 (w3school.com.cn)](https://www.w3school.com.cn/html/html_headings.asp)
+
+涵盖`<head> <h1>to<h6> <!--...-->`
+
+[HTML 段落 (w3school.com.cn)](https://www.w3school.com.cn/html/html_paragraphs.asp)
+
+涵盖`<p> <br>` 还有HTML 输出格式的提示
+
+[HTML 文本格式化 (w3school.com.cn)](https://www.w3school.com.cn/html/html_formatting.asp)
+
+涵盖各种格式
+
+[HTML 注释 (w3school.com.cn)](https://www.w3school.com.cn/html/html_comments.asp)
+
+涵盖`<!-- 在此处写注释 -->`  还有条件注释
 
 - 标题`<h1></h1>`  有6级
 
@@ -196,7 +218,7 @@ body其实是为了在页面上可见的所有元素。all of the element that w
 
 **但是想斜体请使用`<em></em>  `   ** i比较老  em是emphasis
 
-### 1.7 more text element: list
+### 2.3 more text element: list
 
 列表分有序（数字）和无序（点）
 
@@ -221,4 +243,27 @@ body其实是为了在页面上可见的所有元素。all of the element that w
 ![image-20230215162057252](https://abigail-1315839746.cos.ap-nanjing.myqcloud.com/typora/image-20230215162057252.png)
 
 
+
+### 2.4 images and attributes
+
+- 图片 `<img  />`
+- [HTML 图像 (w3school.com.cn)](https://www.w3school.com.cn/html/html_images.asp)
+  - html如何知道它该显示哪个元素？ **通过属性attribute**  attribute是可以用来描述元素的数据片段  attributes are pieces of data which we can use to describe element.  意思就是属性为HTML提供附加信息。  HTML里有许多不同的属性attributes
+  - [HTML 属性 (w3school.com.cn)](https://www.w3school.com.cn/html/html_attributes.asp)
+
+  - 其中之一就是 source 属性 `src="" ` 用来告诉html是哪张图片   
+    - ![image-20230215164203932](https://abigail-1315839746.cos.ap-nanjing.myqcloud.com/typora/image-20230215164203932.png)
+
+  - 还有alternative text属性 `alt=""` 用来告诉html，当图片因为某些原因无法显示时就打印引号里的东西；永远不要跳过这个属性
+    - ![image-20230215185327923](C:\Users\23248\AppData\Roaming\Typora\typora-user-images\image-20230215185327923.png)
+  - 还有width宽度，height高度属性 `width=""` `height=""`    只写其中一个的话会自动保持横纵比例
+    - ![image-20230215185739265](https://abigail-1315839746.cos.ap-nanjing.myqcloud.com/typora/image-20230215185739265.png)
+
+还有一些HTML的属性，比如lang（中文是zh），charset 
+
+![image-20230215232633595](https://abigail-1315839746.cos.ap-nanjing.myqcloud.com/typora/image-20230215232633595.png)
+
+[HTML  <meta>标签 (w3school.com.cn)](https://www.w3school.com.cn/tags/tag_meta.asp)
+
+![image-20230215233709835](https://abigail-1315839746.cos.ap-nanjing.myqcloud.com/typora/image-20230215233709835.png)
 
